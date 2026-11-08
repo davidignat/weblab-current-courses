@@ -1,0 +1,190 @@
+/* WebLab - Courses Currently Taking Styles */
+
+#weblab-current-courses-section {
+  margin: 15px 0 25px 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.weblab-cc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.weblab-cc-title-area {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.weblab-cc-title {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+  margin: 0;
+}
+
+.weblab-cc-count {
+  font-size: 13px;
+  color: #777777;
+  font-weight: 400;
+}
+
+.weblab-cc-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.weblab-btn {
+  display: inline-block;
+  padding: 2px 8px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  color: #333333;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.weblab-btn:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  color: #333333;
+}
+
+.weblab-hidden-drawer {
+  margin-bottom: 14px;
+  padding: 8px 12px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: #555555;
+}
+
+.weblab-restore-pill {
+  display: inline-block;
+  padding: 2px 7px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #00a6d6;
+  background-color: #ffffff;
+  border: 1px solid #00a6d6;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.weblab-restore-pill:hover {
+  background-color: #00a6d6;
+  color: #ffffff;
+}
+
+.weblab-cc-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: stretch;
+}
+
+.weblab-card-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.weblab-card-content {
+  cursor: pointer;
+  display: block;
+}
+
+.weblab-hide-btn {
+  position: absolute !important;
+  top: 4px !important;
+  right: 4px !important;
+  width: 22px !important;
+  height: 22px !important;
+  border-radius: 3px !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+  border: none !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  line-height: 22px !important;
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  z-index: 1000 !important;
+  pointer-events: auto !important;
+  padding: 0 !important;
+  outline: none !important;
+  opacity: 0.65 !important;
+  transition: opacity 0.15s ease, background 0.15s ease !important;
+}
+
+.weblab-card-wrapper:hover .weblab-hide-btn {
+  opacity: 1 !important;
+}
+
+.weblab-hide-btn:hover {
+  background: #d9534f !important;
+  opacity: 1 !important;
+}
+
+.weblab-cc-empty {
+  padding: 16px;
+  color: #777777;
+  font-size: 13px;
+  background-color: #f9f9f9;
+  border: 1px dashed #cccccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.weblab-section-hr {
+  margin: 22px 0 18px 0;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+.weblab-collapsed-content {
+  display: none !important;
+}
+
+.weblab-collapse-header-btn {
+  margin-left: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 1px 7px;
+  font-size: 11px;
+  color: #555555;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.weblab-collapse-header-btn:hover {
+  background-color: #e6e6e6;
+}
